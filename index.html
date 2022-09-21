@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yash Shrimali</title>
+        <link rel="stylesheet" href="yash.css">
+        <style>
+            #project{
+                display: none;
+            }
+            #resume{
+                display: none;
+            }
+            #blog{
+                display: none;
+            }
+            ::-webkit-scrollbar{
+               width: 20px;
+            }
+            ::-webkit-scrollbar-track{
+                box-shadow: 0px 2px 2px #000000;
+                border-radius: 5px;
+                border: 2px solid #000000;
+            }
+    
+            ::-webkit-scrollbar-thumb{
+                background: #010002bd;
+                border-radius: 10px;
+            }
+            ::-webkit-scrollbar-track-piece{
+                background: #7266f8be;
+            }
+            ::selection{
+                background:rgba(139, 0, 0, 0.63);
+            }
+        </style>
+        <script>
+            function sections(){
+                var about = document.getElementById('about');
+                var project = document.getElementById('project');
+                var resume = document.getElementById('resume');
+                var blog = document.getElementById('blog');
+            }
+            function showAbout(){
+                sections();
+                about.style.display="block";
+                project.style.display = "none";
+                resume.style.display = "none"
+                blog.style.display = "none"
+            }
+            function showProject(){
+                sections();
+                about.style.display="none";
+                project.style.display = "block";
+                resume.style.display = "none"
+                blog.style.display = "none"
+            }
+            function showResume(){
+                sections();
+                about.style.display="none";
+                project.style.display = "none";
+                resume.style.display = "block"
+                blog.style.display = "none"
+            }
+            function showBlog(){
+                sections();
+                about.style.display="none";
+                project.style.display = "none";
+                resume.style.display = "none"
+                blog.style.display = "block"
+            }
+        </script>
+    </head>
+    <body>
+        <div class="Portfolio">
+            <nav class="navigation">
+                <div class="top">
+                    <div class="y-logo">
+                        <img style="user-select: none;" id="logo" src="Y-logo.png" >
+                    </div>
+                    <div id="app" style="display:none; color: aqua;">@YASH Shrimali Portfolio</div>
+                    <div class="option about">
+                        <div onclick="showAbout()" class="txt_about_container">
+                            <a class="txt_about" href="#about">About</a>
+                        </div>
+                    </div>
+                    <div  class="option project">
+                        <div  onclick="showProject()" class="txt_project_container">
+                            <a  class="txt_project" href="#project">Projects</a>
+                        </div>
+                    </div>
+                    <div class="option resume">
+                        <div onclick="showResume()" class="txt_resume_container">
+                            <a class="txt_resume" href="#Resume">Resume</a>
+                        </div>
+                    </div>
+                    <div class="option blog">
+                        <div onclick="showBlog()" class="txt_blog_container">
+                            <a class="txt_blog" href="#Blog">Blog</a>
+                        </div>
+                    <div class="option linkedin">
+                        <a href="https://www.linkedin.com/in/yashshrimali/"><img id="linkdin_icon" src="icon.png"></a>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="sections">
+                <div id="about" class="about_section">
+                    <img style="user-select: none;" id="ac" src="account_picture.jpg">
+                    <h4 class="heading_about">ABOUT</h4>
+                    <br>
+                    <p id="para1">Hi I am Yash Shrimali I live in Delhi(NCT), India.
+                        I am a Engineer, UX Designer Data Scientist with 
+                        expertise in various tools and techniques that industries are currently using.
+                    </p>
+                </div>
+                <div id="project" class="project_section">
+                    <h4 class="heading_project">PROJECTS</h4>
+                    <div class="pr_table">
+                        <div class="project_table">
+                            <table>
+                                <tr>
+                                    <th id="thh">Project Title</th>
+                                    <th id="thh">Duration</th>
+                                    <th id="thh">Complition Date</th>
+                                    <th id="thh">Link</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_01</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_02</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_03</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_04</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_05</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_06</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Project_07</td>
+                                    <td>_ _ Month</td>
+                                    <td>_ _/_ _/_ _</td>
+                                    <td>Learn More</td>
+                                </tr>
+
+
+                            </table>
+                        </div>
+                    </div> 
+                </div>
+                <div id="resume" class="resume_section">
+                    <h4 class="heading_resume">RESUME</h4>
+                    <div class="pdf_file">
+                        <embed src="YASH_SHRIMALI-RESUME.pdf" width="1086" height="450">
+                    </div>
+                </div>
+                <div id="blog" class="blog_section">
+                    <h4 class="heading_blog">BLOG</h4>
+                </div>
+            </div>
+        </div>
+        <div id="copwr" >
+            <a  href="#copyright"><span id="cop">Copywright &copy; By Yash Shrimali</span></a>
+        </div>
+    </body>
+</html>

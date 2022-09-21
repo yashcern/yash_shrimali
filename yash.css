@@ -1,0 +1,71 @@
+@import "nav.css";
+@import "about.css";
+@import "project.css";
+@import "table.css";
+@import "resume.css";
+
+
+body{
+    width: 1366;
+    height: auto;
+    background: url("image.png");
+
+    
+    
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.199);
+    background-attachment: fixed;
+    
+}
+
+.top{
+    display: inline-block;
+    display: inline-flex;
+    top: 20px;
+    
+}
+#logo{
+    position: fixed;
+    z-index: 5;
+}
+.navigation{
+    top:30px;
+    position: absolute;
+    
+}
+#logo #app:hover{
+    display: block;
+}
+#copwr{
+    position:relative;
+    top: 623px;
+    left: 1090px;
+    text-decoration: none;
+}
+#cop{
+    background: rgba(0, 0, 3, 0.767);
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+#linkdin_icon{
+    position: relative;
+    width: 43px;
+    height: 43px;
+    left: 1270px;
+    box-shadow: 1pxn #240846;
+    
+    background: url("icon.png");
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+
+    position: fixed;
+    z-index: 5;
+}
+

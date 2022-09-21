@@ -1,0 +1,44 @@
+.pr_table{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.project_table{
+    position: absolute;
+    width: 1000px;
+    height: 350px;
+    top:70px;
+    
+    overflow: auto;
+
+    
+}
+table{
+    position: absolute;
+    border-collapse: collapse;
+    width: 90%;
+    left: 50px;
+    top: 5px;
+
+    height: 500px;
+
+    border-radius: 20px;
+    
+}
+td, th{
+    border: 2px solid #240846;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #7266f8d0;;
+}
+tr:nth-child(odd){
+    background-color: #3120f1d0;;
+}
+#thh{
+    background-color: rgba(220, 20, 60, 0.801);
+    height: 28px;
+}

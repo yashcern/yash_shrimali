@@ -1,0 +1,32 @@
+.resume_section{
+    position: absolute;
+    left: 140px;
+    top: 150px;
+    background: rgba(5, 7, 62, 0.72);
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 2px 4px #240846;
+}
+
+.heading_resume{
+    z-index: 5;
+    position: absolute;
+    width: 98px;
+    height: 29px;
+    left: 470px;
+    top: -90px;
+
+    font-family: 'Rockwell';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    -webkit-text-stroke-color:#2B045B;
+    -webkit-text-stroke-width: 2px
+}
